@@ -119,7 +119,7 @@ class App(QWidget):
             language = language + " inne"
         else:
             ""
-        if (self.txtName.text() and self.txtSurname.text() and self.txtJobTitle and self.txtMail):
+        if (self.txtName.text() and self.txtSurname.text()) and (self.txtJobTitle and self.txtMail.text()):
             gender = "Kobieta"
             if (self.rbMale.isChecked()):
                 gender = "Mężczyzna"
